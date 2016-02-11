@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 #instagram tutorial
 gem 'haml-rails', "~> 0.9"
+gem "simple_form"
 
 
 # Use ActiveModel has_secure_password
