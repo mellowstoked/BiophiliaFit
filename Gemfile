@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #instagram tutorial
 gem 'haml-rails', "~> 0.9"
 gem "simple_form"
-
+gem 'paperclip', '~> 4.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -46,7 +46,7 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '~> 4.0'
 end
 
 group :development do
