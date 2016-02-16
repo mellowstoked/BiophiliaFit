@@ -25,6 +25,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #instagram tutorial
 gem 'haml-rails', "~> 0.9"
 gem "simple_form"
+gem 'paperclip', '~> 4.2' #at the writing of this post
+
+gem 'bootstrap-sass', '~> 3.3.6'
 
 
 # Use ActiveModel has_secure_password

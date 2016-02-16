@@ -1,0 +1,15 @@
+<div class = "posts-wrapper row">
+	<div class = "post">
+		<div class = "name">
+			<h1> Cody Mckeon </h1>
+			<div class = "image center-block">
+				<%= image_tag @post.image.url(:medium) %>
+			</div>
+			<p>
+			<%= @post.caption %>
+			</p>
+			<div class = "text-center">
+				<%= link_to "Cancel", posts_path %>
+			</div>
+	</div>
+</div>
